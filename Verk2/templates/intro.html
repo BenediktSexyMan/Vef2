@@ -1,0 +1,5 @@
+<ul>
+{% for x in Page.data["Book"].values() %}
+    <li><a href="/{{ x.ID }}">{{ x.title }} by {{ x.author }}</a></li>
+{% endfor %}
+</ul>
