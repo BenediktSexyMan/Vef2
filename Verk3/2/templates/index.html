@@ -1,0 +1,9 @@
+<h1>Sign In</h1>
+<form action="" method="post">
+    {{ form.hidden_tag() }}
+    <p>
+        {{ form.productName.label }}<br>
+        {{ form.productName(size=32) }}
+    </p>
+    <p>{{ form.submit() }}</p>
+</form>
