@@ -1,0 +1,71 @@
+﻿
+/*              important part!                    */
+"lat": 64.1413483,
+"lng": -21.9249337
+/*              important part!                    */
+
+{
+    "results": [
+        {
+            "address_components": [
+                {
+                    "long_name": "Reykjavík",
+                    "short_name": "RVK",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Miðborg",
+                    "short_name": "Miðborg",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_1"
+                    ]
+                },
+                {
+                    "long_name": "Iceland",
+                    "short_name": "IS",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "101",
+                    "short_name": "101",
+                    "types": [
+                        "postal_code"
+                    ]
+                }
+            ],
+            "formatted_address": "101 Reykjavík, Iceland",
+            "geometry": {
+                "location": {
+                    "lat": 64.1413483,
+                    "lng": -21.9249337
+                },
+                "location_type": "GEOMETRIC_CENTER",
+                "viewport": {
+                    "northeast": {
+                        "lat": 64.14269728029151,
+                        "lng": -21.9235847197085
+                    },
+                    "southwest": {
+                        "lat": 64.13999931970851,
+                        "lng": -21.9262826802915
+                    }
+                }
+            },
+            "place_id": "ChIJdd7sZct01kgRL3p1TEzu2hE",
+            "types": [
+                "establishment",
+                "point_of_interest",
+                "university"
+            ]
+        }
+    ],
+    "status": "OK"
+}
